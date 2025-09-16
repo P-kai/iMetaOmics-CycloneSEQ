@@ -1,4 +1,10 @@
 # iMetaOmics-CycloneSEQ
 
-![image](https://github.com/P-kai/iMetaOmics-CycloneSEQ/blob/main/Figures/Figure%201.jpg)
+## Rapid reconstruction of multidrug resistant bacterial genomes using CycloneSEQ nanopore sequencing
+Multidrug-resistant (MDR) bacteria commonly harbor highly complex genomes enriched with mobile elements and resistance islands, which are challenging to resolve using short-read sequencing. Here, we evaluated CycloneSEQ, a newly developed Chinese nanopore sequencing platform, for MDR genome reconstruction. Long-read only assemblies generated near-complete genomes, while hybrid assemblies achieved accuracy exceeding 99.99%. CycloneSEQ effectively resolved complex structures, including tandem repeats within ARG-bearing regions. Notably, updated sequencing chemistry improved single-read accuracy to 96.2% and yielded assembled genomes with 99.98% accuracy. These results demonstrate that CycloneSEQ enables the generation of complete and highly accurate bacterial genomes, highlighting its potential for antimicrobial resistance research and clinical surveillance.
 
+![image](https://github.com/P-kai/iMetaOmics-CycloneSEQ/blob/main/Figures/Figure%201.jpg)
+Figure 1 Sequence features of CycloneSEQ nanopore sequencing data and the assembly quality of bacterial genomes using CycloneSEQ nanopore sequencing. (A) Comparison of sequence length and sequence Phred quality score of CycloneSEQ nanopore sequencing data. (B) Comparison of the read N50 of each sample. (C) The sequence homogeneity of CycloneSEQ nanopore sequencing for different samples. (D) Comparison of the predicted count of CDS, tRNA, and rRNA in the bacterial genomes obtained by long-read assembly, polishing, and hybrid assembly with those in the reference genomes.
+
+![image](https://github.com/P-kai/iMetaOmics-CycloneSEQ/blob/main/Figures/Figure%202.jpg)
+Figure 2 The ability of CycloneSEQ nanopore sequencing data in resolving the structure and heterogeneity of gene tandem repeats. (A) Tandem repeats of poxtA gene in strain IC25. (B) The read length and read quality distribution of poxtA-bearing reads.
